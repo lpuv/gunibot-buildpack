@@ -1,8 +1,8 @@
 name: Release
-on: push
-#    release:
-#        types:
-#            - published
+on: #push
+    release:
+        types:
+            - published
 jobs:
   register:
     name: Package, Publish, and Register
