@@ -5,7 +5,8 @@ id = "sardine123/gunibot"
 version = "0.0.4"
 name = "Gunibot Buildpack"
 
-#[[order]]
-#  [[order.group]]
-#    id = "heroku/python"
+[[stacks]]
+id = "io.buildpacks.stacks.bionic"
 
+[[stacks]]
+id = "heroku-18"
