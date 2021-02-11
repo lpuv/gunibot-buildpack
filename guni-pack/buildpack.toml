@@ -1,0 +1,9 @@
+api = "0.2"
+
+[buildpack]
+id = "sardine123/gunibot"
+version = "0.0.1"
+name = "Gunibot Buildpack"
+
+[[stacks]]
+id = "heroku-18"

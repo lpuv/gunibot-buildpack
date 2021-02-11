@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -eo pipefail
+
+echo "---> Gunibot Buildpack"
+
+cat > "$1/launch.toml" <<EOL
+[[processes]]
+type = "worker"
+command = "python3 start.py stable"
+EOL

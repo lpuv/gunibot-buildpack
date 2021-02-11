@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+if [ ! -f "requirements.txt" ] && [ ! -f "setup.py" ] && [ ! -f "Pipfile" ]; then
+  exit 100
+fi

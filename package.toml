@@ -1,0 +1,5 @@
+[buildpack]
+uri = "guni-pack"
+
+#[[dependencies]]
+#uri = "heroku/python"
