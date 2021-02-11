@@ -2,10 +2,10 @@ api = "0.2"
 
 [buildpack]
 id = "sardine123/gunibot"
-version = "0.0.3"
+version = "0.0.4"
 name = "Gunibot Buildpack"
 
-[[order]]
-  [[order.group]]
-    id = "heroku/python"
+#[[order]]
+#  [[order.group]]
+#    id = "heroku/python"
 
