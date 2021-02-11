@@ -9,5 +9,4 @@ name = "Gunibot Buildpack"
   [[order.group]]
     id = "heroku/python"
     version = "0.4.0"
-    optional = false
 
